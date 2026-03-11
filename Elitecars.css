@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #b6050f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    color: white;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: fantasy;
+}
+
+header img {
+    width: 250px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section-1 {
+    background-color: #000000;
+    padding: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.div-1 img {
+    width: 500px;
+}
+
+.div-2 span {
+    color: #fe0401;
+    font-size: 40px;
+    font-family: "New Rocker", system-ui;
+}
+
+.div-2 p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.section-2 {
+    padding: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/piro4d-car-1880381_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-3 {
+    background-color: black;
+    padding: 140px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+}
+
+.div-3 h2 {
+    font-size: 40px;
+    color: #fe0401;
+    margin-bottom: 30px;
+}
+
+.div-3 p {
+    color: white;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    background-color: #fe0401;
+    color: black;
+    font-size: 85px;
+}
+
+.fa-tiktok {
+    background-color: white;
+    color: black;
+    font-size: 85px;
+}
+
+.fa-x-twitter {
+    background-color: #217f16;
+    color: black;
+    font-size: 85px;
+
+}
+
+.section-4{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    gap: 30px;
+}
+
+.section-4 div{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+
+}
+
+.div-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/ferrati_vermelha-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/ferrari_branca-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
