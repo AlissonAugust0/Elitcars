@@ -1,15 +1,16 @@
+/* Importamos uma fonte */
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
-
+/* Tiramos a borda do site */
 * {
     padding: 0px;
     margin: 0px;
 }
 
 header {
-    background-color: #b6050f;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    background-color: #b6050f;/*Adicionamos Cor ao fundo do cabeçalho*/
+    display: flex;/*Alinhamento unidimesional*/
+    align-items: center;/*alinha os itens verticalmente*/
+    justify-content: space-evenly;/*espaçamento idêntico entre os itens e nas extremidades*/
 }
 
 header h1 {
@@ -21,22 +22,22 @@ header h1 {
 }
 
 header img {
-    width: 250px;
+    width: 250px;/*tamanho da imagem*/
 }
 
 li {
-    list-style: none;
+    list-style: none;/*Cancelando a bolinha da lista*/
 }
 
 ul {
-    display: flex;
-    gap: 20px;
+    display: flex;/*Alinhamento unidimesional*/
+    gap: 20px;/* espaço entre as listas*/
 }
 
 li a {
     color: white;
-    text-decoration: none;
-    font-size: 20px;
+    text-decoration: none;/*tirando o sublinhado da lista*/
+    font-size: 20px;/*tamanho da font*/ 
 }
 
 .section-1 {
