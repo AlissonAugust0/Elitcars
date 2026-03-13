@@ -1,46 +1,109 @@
-body{
-    background-color: #202020;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #302e2e;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.div-1{
-    background-color: #797979;
+.div-1 {
+    background-color: #121212;
     width: 500px;
-    height: 700px;
+    /*aumentando a largura da div*/
+    height: 600px;
+    /*aumentando a altura da div*/
     text-align: center;
-    
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    /*Deixando o div mai redondinha*/
+    margin-top: 20px;
+    /*afastando a div do topo do body*/
+
 
 }
-.div-1 img{
+
+.div-1 img {
     width: 100px;
+    /*diminuindo o tamanho da imagem*/
     text-align: center;
+    /*alinhando a imagem para o meio da div*/
+    margin-top: 50px;
+    /*afastando a imagem do top da div*/
+
 }
-.div-1 h1{
-    color: white;
-    
+
+.div-1 h1 {
+    color: #fff9f9;
+    font-family: "Inter", sans-serif;/*mudando a fonte do titulo*/
+    font-optical-sizing: auto;
 }
-.email{
-    color: white;
+
+
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    /*colocando os elementos dentro da div em colunas*/
+    align-items: center;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    color: rgb(255, 255, 255);
     font-size: 25px;
+    font-family: "Inter", sans-serif;/*mudando a fonte do gmail*/
+    font-optical-sizing: auto;
 }
-.input-Email{
-    width: 200px ;
+
+.input-Email {
+    width: 200px;
+    /*amentando o tamanho da caixa de escrita*/
     height: 20px;
+    /*Aumentando a altura da caixa de escrita*/
+    background-color: #121212;
 }
-.Senha{
-    color: white;
+
+
+.Senha {
+    color: rgb(255, 255, 255);
     font-size: 25px;
+     font-family: "Inter", sans-serif;/*mudando a fonte da senha*/
+     font-optical-sizing: auto;
 }
-.input-senha{
+
+.input-senha {
     width: 200px;
     height: 20px;
+    background-color: #121212;
 }
 
-.Input-submit{
+.Input-submit {
     border: none;
-    background-color: #4e4e4e;
+    background-color: #000000;
     width: 100px;
     height: 30px;
+    color: white;
+}
+
+.fa-solid {
+    font-size: 20px;
+    color: #484848;
+
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: #484848;
 }

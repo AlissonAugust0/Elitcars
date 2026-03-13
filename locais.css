@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #b6050f;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+li {
+    list-style: none;/*Cancelando a bolinha da lista*/
+}
+
+ul {
+    display: flex;/*Alinhamento unidimesional*/
+    gap: 20px;/* espaço entre as listas*/
+}
+
+li a {
+    color: white;
+    text-decoration: none;/*tirando o sublinhado da lista*/
+    font-size: 20px;/*tamanho da font*/ 
+
+}
+body {
+    background-color: black;
+}
+iframe{
+   width:900px;   
+    height: 400px;/* altura fixa para todos */
+    border: none; /* remove borda padrão */
+    border-radius: 10px; /* deixa com cantos arredondados */
+    margin: 20px 0;   /* espaço entre os iframes */
+}
+section{
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
