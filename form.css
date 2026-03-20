@@ -58,6 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .email {
@@ -73,6 +74,7 @@ body {
     height: 20px;
     /*Aumentando a altura da caixa de escrita*/
     background-color: #121212;
+    color: white;
 }
 
 
@@ -87,6 +89,7 @@ body {
     width: 200px;
     height: 20px;
     background-color: #121212;
+    color: white;
 }
 
 .Input-submit {
